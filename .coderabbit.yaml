@@ -3,22 +3,22 @@
 
 # Enable code reviews
 reviews:
-  enabled: true
+  auto_review:
+    enabled: true
+  path_filters:
+    - "node_modules/**"
+    - ".next/**"
+    - "**/__tests__/**"
+    - "*.test.ts"
+    - "*.test.tsx"
+    - "*.config.js"
+    - "jest.setup.js"
+    - "next-env.d.ts"
+    - "package-lock.json"
 
 # Enable chat functionality
 chat:
-  enabled: true
-
-# Paths to exclude from review
-ignore:
-  - "node_modules/**"
-  - ".next/**"
-  - "**/__tests__/**"
-  - "*.test.ts"
-  - "*.test.tsx"
-  - "*.config.js"
-  - "jest.setup.js"
-  - "next-env.d.ts"
-  - "package-lock.json"
+  auto_reply: true
+  art: true
 
 
