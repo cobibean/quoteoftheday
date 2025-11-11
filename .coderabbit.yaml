@@ -1,0 +1,24 @@
+# CodeRabbit Configuration
+# See https://docs.coderabbit.ai/configuration for more details
+
+# Enable code reviews
+reviews:
+  enabled: true
+
+# Enable chat functionality
+chat:
+  enabled: true
+
+# Paths to exclude from review
+ignore:
+  - "node_modules/**"
+  - ".next/**"
+  - "**/__tests__/**"
+  - "*.test.ts"
+  - "*.test.tsx"
+  - "*.config.js"
+  - "jest.setup.js"
+  - "next-env.d.ts"
+  - "package-lock.json"
+
+
