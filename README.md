@@ -1,5 +1,7 @@
 # Quote Roulette
 
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/cobibean/quoteoftheday?utm_source=oss&utm_medium=github&utm_campaign=cobibean%2Fquoteoftheday&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
+
 A minimal, polished web app that displays random inspirational quotes. Built with Next.js 14+, TypeScript, and the app router.
 
 ## Features
